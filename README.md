@@ -1,126 +1,125 @@
 # microsoft-terminal-profile
 ```json
 {
-  "globals": {
-    "alwaysShowTabs": true,
-    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-    "initialCols": 120,
-    "initialRows": 30,
-    "keybindings": [
-      {
-        "command": "closeTab",
-        "keys": [
-          "ctrl+w"
-        ]
-      },
-      {
-        "command": "newTab",
-        "keys": [
-          "ctrl+t"
-        ]
-      },
-      {
-        "command": "newTabProfile0",
-        "keys": [
-          "ctrl+shift+1"
-        ]
-      },
-      {
-        "command": "newTabProfile1",
-        "keys": [
-          "ctrl+shift+2"
-        ]
-      },
-      {
-        "command": "newTabProfile2",
-        "keys": [
-          "ctrl+shift+3"
-        ]
-      },
-      {
-        "command": "newTabProfile3",
-        "keys": [
-          "ctrl+shift+4"
-        ]
-      },
-      {
-        "command": "nextTab",
-        "keys": [
-          "ctrl+tab"
-        ]
-      },
-      {
-        "command": "openSettings",
-        "keys": [
-          "ctrl+,"
-        ]
-      },
-      {
-        "command": "prevTab",
-        "keys": [
-          "ctrl+shift+tab"
-        ]
-      },
-      {
-        "command": "scrollDown",
-        "keys": [
-          "ctrl+shift+down"
-        ]
-      },
-      {
-        "command": "scrollDownPage",
-        "keys": [
-          "ctrl+shift+pgdn"
-        ]
-      },
-      {
-        "command": "scrollUp",
-        "keys": [
-          "ctrl+shift+up"
-        ]
-      },
-      {
-        "command": "scrollUpPage",
-        "keys": [
-          "ctrl+shift+pgup"
-        ]
-      },
-      {
-        "command": "switchToTab0",
-        "keys": [
-          "alt+1"
-        ]
-      },
-      {
-        "command": "switchToTab1",
-        "keys": [
-          "alt+2"
-        ]
-      },
-      {
-        "command": "switchToTab2",
-        "keys": [
-          "alt+3"
-        ]
-      },
-      {
-        "command": "switchToTab3",
-        "keys": [
-          "alt+4"
-        ]
-      },
-      {
-        "command": "switchToTab4",
-        "keys": [
-          "alt+5"
-        ]
-      }
-    ],
-    "requestedTheme": "system",
-    "showTabsInTitlebar": true,
-    "showTerminalTitleInTitlebar": true,
-    "wordDelimiters": " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502"
-  },
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "alwaysShowTabs": true,
+  "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+  "initialCols": 120,
+  "initialRows": 30,
+  "keybindings": [
+    {
+      "command": "closeTab",
+      "keys": [
+        "ctrl+w"
+      ]
+    },
+    {
+      "command": "newTab",
+      "keys": [
+        "ctrl+t"
+      ]
+    },
+    {
+      "command": "newTabProfile0",
+      "keys": [
+        "ctrl+shift+1"
+      ]
+    },
+    {
+      "command": "newTabProfile1",
+      "keys": [
+        "ctrl+shift+2"
+      ]
+    },
+    {
+      "command": "newTabProfile2",
+      "keys": [
+        "ctrl+shift+3"
+      ]
+    },
+    {
+      "command": "newTabProfile3",
+      "keys": [
+        "ctrl+shift+4"
+      ]
+    },
+    {
+      "command": "nextTab",
+      "keys": [
+        "ctrl+tab"
+      ]
+    },
+    {
+      "command": "openSettings",
+      "keys": [
+        "ctrl+,"
+      ]
+    },
+    {
+      "command": "prevTab",
+      "keys": [
+        "ctrl+shift+tab"
+      ]
+    },
+    {
+      "command": "scrollDown",
+      "keys": [
+        "ctrl+shift+down"
+      ]
+    },
+    {
+      "command": "scrollDownPage",
+      "keys": [
+        "ctrl+shift+pgdn"
+      ]
+    },
+    {
+      "command": "scrollUp",
+      "keys": [
+        "ctrl+shift+up"
+      ]
+    },
+    {
+      "command": "scrollUpPage",
+      "keys": [
+        "ctrl+shift+pgup"
+      ]
+    },
+    {
+      "command": "switchToTab0",
+      "keys": [
+        "alt+1"
+      ]
+    },
+    {
+      "command": "switchToTab1",
+      "keys": [
+        "alt+2"
+      ]
+    },
+    {
+      "command": "switchToTab2",
+      "keys": [
+        "alt+3"
+      ]
+    },
+    {
+      "command": "switchToTab3",
+      "keys": [
+        "alt+4"
+      ]
+    },
+    {
+      "command": "switchToTab4",
+      "keys": [
+        "alt+5"
+      ]
+    }
+  ],
+  "requestedTheme": "system",
+  "showTabsInTitlebar": true,
+  "showTerminalTitleInTitlebar": true,
+  "wordDelimiters": " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502",
   "profiles": [
     {
       "acrylicOpacity": 0.5,
@@ -176,7 +175,13 @@
       "snapOnInput": true,
       "startingDirectory": "%USERPROFILE%",
       "useAcrylic": true
-    }
+    },
+      {
+          "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+          "hidden": false,
+          "name": "Azure Cloud Shell",
+          "source": "Windows.Terminal.Azure"
+      }
   ],
   "schemes": [
     {
